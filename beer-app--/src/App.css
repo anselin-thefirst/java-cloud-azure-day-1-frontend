@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin-left: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.posts {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.21);
+}
+
+li {
+  border: 1px solid;
+  margin: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.21);
+}
+
+#comments {
+  border: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.21);
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  float: inline-end;
+  width: 70%;
+}
+
+form button, #delete {
+  padding: 10px 15px;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #333;
+  margin-top: 2rem;
+}
+
+form button:hover {
+  transform: scale(1.05);
+}
