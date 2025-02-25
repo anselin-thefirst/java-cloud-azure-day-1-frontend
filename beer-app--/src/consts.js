@@ -1,5 +1,5 @@
 import "react"
 
-const url = "http://localhost:5000";
+const url = "https://frida-beer.azurewebsites.net";
 
 export const API_URL = url.replace(/\/$/, "");
